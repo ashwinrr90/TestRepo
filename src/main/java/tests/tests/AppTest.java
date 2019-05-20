@@ -17,7 +17,8 @@ public class AppTest{
 	WebDriver driver;
 
 	public void invokeChrome() {
-		System.setProperty("webdriver.chrome.driver", "resources/drivers/chromedriver");
+		System.out.println("Test Started..");
+		System.setProperty("webdriver.chrome.driver", "resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 	}
