@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71035" started-at="2019-05-17T09:05:26Z" finished-at="2019-05-17T09:06:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71035" started-at="2019-05-17T09:05:26Z" finished-at="2019-05-17T09:06:37Z">
+      <class name="tests.tests.signInTest">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:tests.tests.signInTest@65fb9ffc]" name="signIn" duration-ms="6498" started-at="2019-05-17T09:05:26Z" description="Login and assert an asset" finished-at="2019-05-17T09:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="updateJiraAfterTest()[pri:0, instance:tests.tests.signInTest@65fb9ffc]" name="updateJiraAfterTest" is-config="true" duration-ms="4346" started-at="2019-05-17T09:06:32Z" finished-at="2019-05-17T09:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJiraAfterTest -->
+      </class> <!-- tests.tests.signInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
